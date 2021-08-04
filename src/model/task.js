@@ -4,7 +4,7 @@ const validator=require('validator')
 const Task=mongoose.model('Task',{
     description:{
         type:String,
-        required:true,
+        required:false,
         trim:true
     },
     completed:{
