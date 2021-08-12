@@ -9,7 +9,7 @@ router.post('/tasks',(req,res)=>{
     task.save().then(()=>{
         res.send(task)
     }).catch((e)=>{
-        res.status(400).send(e)
+        res.status(400.).send(e)
     })
 })
 
