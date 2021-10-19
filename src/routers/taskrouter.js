@@ -13,7 +13,7 @@ router.post('/tasks',(req,res)=>{
     })
 })
 
-//reading iterms
+//reading iterms.
 router.get('/tasks',(req,res)=>{
     Task.find().then((result)=>{
         res.send(result)
