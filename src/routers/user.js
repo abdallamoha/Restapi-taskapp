@@ -53,7 +53,7 @@ router.patch('/users/:id', async (req,res)=>{
         return allowedupdate.includes(update)
     })
     if(!isValidOperation){
-        return res.status(400).send({error:'invalid operation'})
+        return res.status(400).send({error:'invalid operation.'})
     }
 
     try{
