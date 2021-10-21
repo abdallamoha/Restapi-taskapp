@@ -8,7 +8,7 @@ const userSchema=new schema({
     name:{
         type:String,
         trim:true,
-       // index:true//evry time query this db by name run fast
+       // index:true//evry time query this db by name run fast.
         //dropDups: true // Use dropDups to ensure dropping duplicate records in your schemas like;
     },
     password:{
